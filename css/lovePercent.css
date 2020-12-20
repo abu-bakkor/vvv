@@ -1,0 +1,28 @@
+/* ? this is universal code  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ? end universal code */
+
+body{
+       background-image: url("../image/backgroundIMG.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       height: 100%;
+}
+
+.content h2{
+    background: rgba(3, 0, 0, 0.473);
+    border-left: 1px red;
+}
+
+
+.reFrash, .button{
+    cursor: pointer;
+}
+
+

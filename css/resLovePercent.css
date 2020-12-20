@@ -1,0 +1,171 @@
+/* * these code for Extra small device */
+
+@media only screen and  (min-width:0px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url("../image/backgroundIMG.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        height: 100%;
+ }
+ 
+    .mainContainer{
+        width: 100%;
+       
+       overflow: hidden;
+       
+    }
+
+    .content{
+        width: 80%;
+        /* margin: 50px auto 0px; */
+        background: rgba(255, 20, 145, 0.623);
+        box-sizing: border-box;
+        margin-top: 25px;
+        overflow: hidden;
+        height: 100%;
+        padding: 25px 0px;
+        margin: 70px auto 0px;
+        border-radius: 7px;
+    }
+
+    .content h2{
+        width: 80%;
+        font-size: 20px;
+        /* background: red; */
+        text-align: center;
+        padding: 10px 0px;
+        color: rgb(255, 255, 255);
+        font-family: arial;
+        margin: auto;
+        border-radius:5px ;
+
+    }
+
+    .display{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .input-area{
+        width: 100%;
+        text-align: center;
+        /* background-color: deepskyblue; */
+
+    }
+
+    .input-area input{
+        padding: 7px 5px;
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    
+
+    .out_put{
+        width: 80%;
+        background-color: white;
+        margin:10px auto 5px;
+        text-align: center;
+        height: 35px;
+        border: 2px solid greenyellow;
+        border-radius: 5px;
+        font-size: 20px;
+    
+        
+    }
+    .two_button{
+        width: 80%;
+        margin:30px auto 0px;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 20%;
+
+    }
+
+    .reFrash{
+        background: rgb(19, 218, 175);
+        text-align: center;
+        box-sizing: border-box;
+        color: white;
+        font-family: arial black;
+        padding: 4px 5px;
+        
+        
+    }
+    .button{
+        background: cyan;
+        color: rgb(2, 2, 2);
+        font-family: arial black;
+        font-weight: 700;
+    }
+
+    
+}
+
+/* * End the Code which was for extra small device */
+   
+/* ? these code for small device */
+@media screen and (min-width:575px){
+    .mainContainer{
+        width: 100%;
+       
+       overflow: hidden;
+       
+    }
+
+    .content{
+        background-color: #d200ff82;
+        border-radius: 5px;
+    }
+
+}
+
+/* ? End the code which was for small device */
+
+
+/* * this is for medium device  */
+
+@media screen and (min-width:767px){
+    .mainContainer{
+        width: 100%;
+
+    }
+
+    .content{
+        background: rgb(2 248 248 / 33%);
+        margin: 50px auto 0px;
+    }
+    .content h2{
+        width: 80%;
+        border-left: 1px red;
+        margin: auto;
+    }
+
+    .input-area input{
+        margin-top: 40px;
+    }
+
+    .out_put{
+        background: rgb(59, 59, 59);
+        color: white;
+        margin-top: 40px;
+    }
+
+    .two_button{
+        margin-top: 40px;
+    }
+
+    .button{
+        background: fuchsia;
+    }
+}
+/* * end the medium device */
